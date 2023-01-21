@@ -1,0 +1,626 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+body{
+    margin: 0;
+    background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613242904_27-p-temno-sinii-fon-dlya-fotoshopa-odnotonnii-30.jpg);
+}
+header{
+    height: 78px;
+    padding-top: 15px;
+}
+.navigation{
+    padding-top: 6px;
+    margin-left: 12px;
+}
+.airflot_top{
+    background-color: #458eee;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.airflot_bottom{
+    background-color: #458eee;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.info{
+    color: #065398;
+    text-decoration: none;
+    cursor: pointer; 
+}
+.info:hover{
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+.main{
+    padding: 16px;
+    padding-left: 230px;
+    padding-right: 230px;
+}
+
+.bac_white{
+    background-color: #ffffff;
+}
+.bac_ser{
+    background-color: #bbbbbd;
+}
+
+.block{
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    border-radius: 4px;
+
+}
+.block_1{
+    background-color: rgba(0, 0, 0, 0.658);
+    height: 324px;
+    border-radius: 4px;
+
+}
+.block_2{
+    background-color: rgb(15, 138, 196);
+    height: 324px;
+    border-radius: 4px;
+
+}
+
+.window{
+    padding: 12px 12px 12px 12px;
+    width: auto;
+    max-width: 123px;
+}
+
+.covid{
+    text-align: center;
+    background-color: rgb(199, 221, 246);
+    height: 56px;
+
+}
+.c1{
+    padding-top: 0px;
+    text-align: left;
+}
+.c2{
+    padding-top: 0px;
+    text-align: right;
+}
+
+.photo{
+    position:relative;
+    height: 122px;
+}
+
+.image{
+    position:absolute;
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+
+.text{
+    padding: 17px;
+    position:relative;
+}
+h3{
+    font-size: 16px ;
+    margin-bottom: 10px;
+    color: #4a90e2;
+}
+.zagolovok{
+    font-size: 16px ;
+    margin-bottom: 10px;
+    color: #4a90e2; 
+}
+
+.logo-img{
+    position:absolute;
+    max-width: 30%;
+}
+.content-text{
+    font-size: 14px;
+    color: #606060;
+    margin-bottom: 21%;
+    
+}
+
+li{
+    list-style-type: none;
+    font-size: 14px;
+    color: #faf5f5;
+    
+    
+}
+
+#logo{
+    padding-left: 2%;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    width: 64px;
+    margin-right: 0px;
+    
+}
+
+.nav{
+    white-space: nowrap;
+    padding-top: 5px;
+    padding-left: 6px;
+}
+
+.header_nav{
+    margin-left: 6px;
+}
+
+
+#logo1{
+    padding-right: 0px;
+    max-width: 190px;
+}
+
+.txt_ser{
+    color: #FFFFFFB3
+}
+
+.foot{
+    font-size: 14px;
+    padding-bottom: 6px;
+}
+
+.foot_logo{
+    font-size: 38px;
+}
+.foot_logo_a{
+    color: #f0f3f7;
+    text-decoration: none;
+    cursor: pointer;
+}
+.foot_logo_a:hover{
+    color: #b9d3f5;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.foot_tel_a{
+    color: #f0f3f7;
+    text-decoration: none;
+    cursor: pointer;
+}
+.foot_tel_a:hover{
+    color: #b9d3f5;
+    text-decoration: none;
+    cursor: pointer;
+}
+.foot_tel_a:active{
+    color: #f0f3f7;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.Button-foot{
+    max-width: 181px;
+    max-height: 181px;
+    background-color: #e06e02;
+    border-radius: 4px;
+    text-align: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-bottom: 32px;
+    white-space: nowrap;
+}
+.Button-foot_a{
+    color: #f0f3f7;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+    
+    
+}
+.Button-foot:hover{
+    background-color: #df8600;
+}
+.Button-foot_a:hover{
+    color: #f0f3f7;
+}
+.Button-foot:active{
+    border: 2px solid #e2dfdf;
+    
+}
+
+
+.btn_top{
+    margin-top: 18px;
+}
+.element{
+    
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.element_btn{
+    width: 215px;
+    height: 40px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom:22px;
+
+}
+.img-bonus{
+    text-align: center;
+    padding-top: 80px;
+    width: 240px;
+    height: 194px;
+}
+
+.f12{
+    font-size: 12px;
+}
+.f20{
+    font-size: 20px;
+}
+.two_btn{
+    max-width: 105px;
+}
+.fon_opac{
+    background-color: #00000085;
+}
+
+.smile__wrapper{
+    position: relative;
+    height: 312px;
+}
+.smile_1{
+    position: absolute;
+    right:0;
+}
+.smile_2{
+    position: absolute;
+    bottom: 0;
+}
+
+.smile_3{
+    position: absolute;
+    bottom: 10%;
+    right: -0%;
+}
+.bac_blue1{
+    background-color: #011e38;
+}
+.bac_blue2{
+    background-color: #0a5392;
+}
+.Button-head{
+    font-size: 12px;
+    background-color: #e06e02;
+    border-radius: 4px;
+    text-align: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-right: 7px;
+    white-space: nowrap;
+}
+.Button-head_a{
+    color: #f0f3f7;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+    
+    
+}
+.Button-nav{
+    color: #f0f3f7;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+.Button-nav:hover{
+    color: #f0f3f7;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-bottom: 2px solid #f06d02;
+}
+.Button-head:hover{
+    background-color: #ac580a;
+}
+.Button-head_a:hover{
+    color: #bbb8b6;
+}
+.Button-head:active{
+    border: 2px solid #e2dfdf;
+    
+}
+.button{
+    color: #f0f3f7;
+    text-decoration: none;
+    cursor: pointer;
+}
+.button_bak{
+    background-color: #74abf1;
+    border-radius: 4px;
+    text-align: center;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border:0px;
+}
+.button:hover{
+    color: #f0f3f7;
+}
+.button_bak:hover{
+    background-color: #6b80f3;
+}
+.button_bak:active{
+    background-color: #aab5f1;
+}
+.b2{
+    
+    background-color: #e2dfdf00;
+    border-radius: 4px ;
+    border: 1px solid #e2dfdf;
+    
+}
+.ab2{
+    color: #f0f3f7;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 12px;
+    
+    
+    
+}
+.b2:hover{
+    border: 1px solid #85c4ee;
+    
+}
+.ab2:hover{
+    color:  #85c4ee;
+}
+.b2:active{
+    border: 2px solid #e2dfdf;
+    
+}
+.ab2:active{
+    color:  #e2dfdf;
+}
+.button_uslug{
+    text-align: right;
+}
+
+#line{
+    color: rgb(255, 255, 255);
+    border: 0px,0px,0px,0px;
+}
+
+.f14{
+    font-size: 14px;
+}
+.txt_white{
+    color:rgb(255, 255, 255)
+}
+.pt17{
+    padding-top: 17px;
+}
+.pb17{
+    padding-bottom: 17px;
+}
+
+.img_foot{
+    max-width: 60px;
+    max-height: 60px;
+
+}
+
+.bron_nav {
+    background-color: rgb(231, 245, 255);
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+#br{
+    padding-right: 0px;
+    
+}
+.bron_nav_item {
+    color: #4a90e2;
+    border-bottom: 1px solid #949deb;
+    border-right: 1px solid #949deb;
+}
+.bron_nav_item:active {
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid #949deb00;
+    border-right: 1px solid #949deb;
+}
+
+.bron_nav_item_r{
+    color: #4a90e2;
+    position:relative;
+    
+}
+
+.bron_nav_item_r:after{
+    color: #000000;
+    content:"";
+    font-weight:700;
+    position:absolute;
+    bottom:0;
+    left:0%;
+    width:145px;
+    height:1px;
+    margin-left:0%;
+    background:#949deb;
+    
+}
+.bron_nav_item_r:active::after {
+    background-color: rgb(255, 255, 255);
+    content:"Субсидированные перевозки";
+    font-weight:700;
+    bottom:0%;
+    left:0%;
+    width:145px;
+    height:43px;
+    margin-left:0%;
+    
+    border-top-right-radius: 4px;
+    
+}
+.bron_nav_item_l {
+    color: #4a90e2;
+    border-right: 1px solid #949deb;
+    position:relative;
+    
+    
+}
+.bron_nav_item_l:after{
+    color: #000000;
+    content:"";
+    position:absolute;
+    bottom:0;
+    right:0%;
+    width:145px;
+    height:1px;
+    margin-left:0%;
+    background:#949deb;
+    
+}
+.bron_nav_item_l:active::after {
+    background-color: rgb(255, 255, 255);
+    content:"Бронирование";
+    font-weight:700;
+    bottom:0%;
+    right:0%;
+    width:145px;
+    height:43px;
+    margin-left:0%;
+    border-top-left-radius: 4px;
+   
+}
+
+
+.bron{
+    background-color: rgba(255, 255, 255);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    
+}
+.bron_txt{
+    font-size: 12px;
+}
+
+
+.bron_btn_a{
+    color: #74abf1;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight:700;
+   
+}
+#aviabilet{
+    border-bottom: 2px solid #f79a44;
+}
+.bron_btn_a:hover{
+    color: #74abf1;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#bron_inside{
+    
+    
+    text-align: center;
+}
+.line{
+    padding-left: 16px;
+    
+}
+
+.city{
+    max-width: 160px;
+    min-height: 40px;
+    border:1px solid#a19f9f;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.date{
+    max-width: 110px;
+    min-height: 40px;
+    border:1px solid#a19f9f;
+    border-radius: 4px;
+    font-size: 14px;
+    content: attr(data-date);
+}
+.lister{
+    max-width: 126px;
+    min-height: 40px;
+    border:1px solid#a19f9f;
+    border-radius: 4px;
+    font-size: 14px;
+    
+}
+.lister_div{
+    padding-top: 18px;
+}
+.promo{
+    font-size: 14px;
+    white-space: nowrap;
+    color: #74abf1;
+    text-decoration: none;
+    cursor: pointer;
+}
+.mili{
+    white-space: nowrap;
+}
+.chekb{
+    margin-top: 10px;
+    
+}
+#chek{
+   width: 18px;
+   height: 18px;
+  
+}
+
+.poisk{
+    text-align: right;
+}
+.slider-main{
+    position: relative; 
+}
+.bronirovanie{
+    position: absolute;
+    top: 0;
+   
+}
+
+.lang{
+    padding-top: 0px;
+}
+.RU{
+    background-color: #00000060;
+    color: #ffffff;
+    font-size:12px ;
+    width: 45px;
+    border: 0px;
+    border-radius: 4px;
+}
+.RU:hover{
+    background-color: #00000079;
+}
+.RU:active{
+    background-color: #00000079;
+    border: 0px;
+}
+#logo2{
+    padding-top: 10px;
+}
+.logo_a:hover{
+    opacity: 0.75;
+}

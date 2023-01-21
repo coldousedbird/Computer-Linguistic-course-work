@@ -1,0 +1,25 @@
+
+body::selection{
+    background-color: aliceblue;
+}
+
+.content{
+    color: aliceblue;
+    text-align: center;
+    padding: 12px,12px,12px,12px;
+    
+}
+
+.photodb{
+    height: 225px;
+    width: 175px;
+}
+
+.p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.753);
+}
+
+
+/* aliceblue */

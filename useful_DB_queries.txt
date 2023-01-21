@@ -1,0 +1,29 @@
+-- Команды создания БД 
+CREATE SCHEMA aboba;
+SET search_path = aboba
+CREATE TABLE news (
+id SERIAL PRIMARY KEY,
+name TEXT,
+date TEXT,
+link TEXT,
+text TEXT
+);
+
+CREATE TABLE mentions (
+id INT PRIMARY KEY AUTO_INCREMENT,
+id_news_has_mentions INT,
+persons_name TEXT,
+number_of_mentions INT NOT NULL
+);
+
+
+
+-- Команды обнуления БД
+TRUNCATE aboba.news;
+ALTER SEQUENCE aboba.news_id_seq RESTART WITH 1;
+
+TRUNCATE aboba.mentions;
+ALTER SEQUENCE aboba.mentions_id_seq RESTART WITH 1;
+
+-- Команда вывода всех результатов парсинга
+SELECT * FROM aboba.news;
